@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('images/background3.jpg');
+    background-size: cover;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s; 
+}
+
+.nav_links li a:hover {
+    color: #7b6280; 
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(123, 98, 128);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; 
+}
+
+button:hover {
+    background-color: rgba(106, 88, 110);
+}
+
+.content {
+    width: 100%;
+    margin-top: 16%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.text1, .text2 {
+    color: #edf0f1;
+}
+
+.text1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text2 {
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+}
+
+.quemsou {
+    width: 1130px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.card1, .card2{
+    border-radius: 20px;
+    background-color: #24252A;
+    color: #edf0f1;
+    border: 2px solid #7b6280;
+}
+
+.card1 {
+    width: 515px;
+    height: 420px;
+    float: left;
+}
+
+.card2 {
+    height: 420px;
+    float: right;
+    width: 515px;
+}
+
+.h1card, .pcard {
+    margin-top: 16px;
+    margin-left: 13px;
+}
+
+.h1card {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.pcard {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 16px;
+}
+
+.border {
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: white;
+    margin: 0 auto;
+}
+
+/* Campo de configuração dos outros quadros        */
+.card3, .card4{
+    border-radius: 20px;
+    background-color: #24252A;
+    color: #edf0f1;
+    border: 2px solid #7b6280;
+    margin-top: 90px;
+}
+
+.card3 {
+    width: 515px;
+    height: 420px;
+    float: left;
+}
+
+.card4 {
+    height: 420px;
+    float: right;
+    width: 515px;
+}
+
+.imgcontato {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 5%;
+    background-color: #24252A;
+    border: 2px solid #7b6280;
+    position:;
+    color: #edf0f1;
+    margin-top: 40%;
+}
